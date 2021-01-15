@@ -112,12 +112,11 @@ gönderdiğim "deneme" veri setini kullanacağız.
 
 \  
 
-# GELECEK KURS
 Bir sonraki kursumuz **"Cleaning Data in R"**. Bu kursu **22.01.2021 Cuma** gününe kadar tamamlayabiliriz.
 
 
 
-
+Buraya da birşeyler ekledm.
 
 
 
