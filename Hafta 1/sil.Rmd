@@ -1,0 +1,48 @@
+---
+title: Generate content programmatically
+---
+
+With the chunk option `results = 'asis'`, you can
+write out text as raw Markdown content, which can
+also be mixed with plots.
+
+```{r setup}
+library(tidyverse)
+library(ggplot2)
+library(magick)
+
+```
+
+
+```{r, fonksiyon}
+add_logo <- function(path, options) {
+  img <- magick::image_read(path)
+  # the R logo
+  logo <- file.path("C:/Users/LENOVO/Desktop/GK - HIA Uygulama/www/tuik.png")
+  logo <- magick::image_read(logo)
+  # the default gravity is northwest, and users can change
+  # it via the chunk option magick.gravity
+  if (is.null(g <- options$magick.gravity)) 
+    g <- "northwest"
+  # add the logo to the plot
+  img <- magick::image_composite(img, logo, gravity = g)
+  # write out the new image
+  magick::image_write(img, path)
+  path
+}
+```
+
+Bakalım ekleyecek mi?  
+
+```{r ekle, fig.process = add_logo, magick.gravity = "southeast"}
+a <- ggplot(mtcars, aes(x = wt, y = drat)) + geom_point()
+a
+```
+
+
+
+
+
+
+
+
