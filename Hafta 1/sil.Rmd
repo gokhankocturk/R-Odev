@@ -1,7 +1,7 @@
 ---
 title: Generate content programmatically
 ---
-
+GGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
 With the chunk option `results = 'asis'`, you can
 write out text as raw Markdown content, which can
 also be mixed with plots.
