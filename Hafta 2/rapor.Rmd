@@ -18,6 +18,11 @@ library(knitr)
 knitr::opts_chunk$set(echo = FALSE, fig.align="center")
 ```
 
+# GOKHAN
+## KOCTURK
+# PROGRAM
+# GITHUB
+
 ```{r grafik, echo = FALSE, out.width = "50%", fig.align = "center"}
 # Markdown icerisine disaridan image eklemek istedigimiz zaman kullanacagimiz yontemlerden
 # bir tanesi bu. Yani R Chunk icerisinde "knitr::include_graphics("...")" komutunu kullaniyoruz.
