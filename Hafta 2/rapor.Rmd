@@ -107,21 +107,24 @@ gönderdiğim "deneme" veri setini kullanacağız.
 
 4. "HIA" veri setinde "w_cal / (ilkfaktor * ao_duz)" hesaplamasını "oran" sütununa kaydedin. 
  
-
+zxczxczxc
+dsdf
+sdf
+sdf
 5. "oran" sütununa göre 0.5'in altında ve 2'nin üstünde olan verileri filtreleyerek "HIA_oran_kontrol" adıyla kaydedin.
 
 \  
 
 Bir sonraki kursumuz **"Cleaning Data in R"**. Bu kursu **22.01.2021 Cuma** gününe kadar tamamlayabiliriz.
 
-
-
+dfssf
+sfsfs
 Buraya da birşeyler ekledm.
 
+fsfsfs
 
 
-
-
+dfsdfsd
 
 
 
