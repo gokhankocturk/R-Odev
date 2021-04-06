@@ -1,2 +1,6 @@
 gokhan
+<<<<<<< HEAD
 beren
+=======
+kocturk
+>>>>>>> 10529cec9800ef0ea0e66ae189c9b2fc7566d875
